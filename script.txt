@@ -1,0 +1,9 @@
+#!/bin/bash
+cd h3
+mkdir f1 f2 f3
+cd f1
+touch file1.txt file2.txt file3.txt file4.json file5.json
+mkdir m1 m2 m3
+ls
+mv file1.txt file2.txt ./m2
+echo "ГОТОВО!"
