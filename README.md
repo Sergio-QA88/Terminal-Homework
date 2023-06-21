@@ -1,5 +1,4 @@
-# Первая часть первого  ДЗ  ))
-Linux terminal (GitBash) commands
+# Linux terminal (GitBash) commands
 
 1) Посмотреть где я - pwd
 2) Создать папку - mkdir
@@ -26,8 +25,8 @@ Linux terminal (GitBash) commands
 1) Отправить http запрос на сервер.
 http://162.55.220.72:5006/terminal-hw-request
 curl "http://162.55.220.72:5006/terminal-hw-request"
----------------
-"Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
+==========
+Task_1: "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
 curl "http://162.55.220.72:5005/get_method?name=Serhii&age=35"
 ============================
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
@@ -39,12 +38,12 @@ curl "http://162.55.220.72:5005/get_method?name=Serhii&age=35"
    8) Вывести список содержимого папки
    13) переместить любые 2 файла, которые вы создали, в любую другую папку.
 
-#!/bin/bash
-cd h3
-mkdir f1 f2 f3
-cd f1
-touch file1.txt file2.txt file3.txt file4.json file5.json
-mkdir m1 m2 m3
-ls
+ #!/bin/bash
+ cd h3
+ mkdir f1 f2 f3
+ cd f1
+ touch file1.txt file2.txt file3.txt file4.json file5.json
+ mkdir m1 m2 m3
+ ls
 mv file1.txt file2.txt ./m2
 echo "ГОТОВО!"
